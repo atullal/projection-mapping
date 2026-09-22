@@ -19,7 +19,7 @@
 ## Software
 
 ```bash
-git clone <repo> projection-mapping && cd projection-mapping
+git clone https://github.com/atullal/projection-mapping.git && cd projection-mapping
 uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r requirements.txt
 source .venv/bin/activate
 python check_rig.py
