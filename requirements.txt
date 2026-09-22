@@ -1,0 +1,6 @@
+# Python 3.12.  Tested versions on the right; newer minors should be fine.
+# opencv-python-HEADLESS on purpose: the GUI build is unused and adds more SDL2 (see AGENTS.md).
+opencv-python-headless>=4.10,<6   # 5.0.0.93
+numpy>=2.0                        # 2.5.3
+pygame-ce>=2.5                    # 2.5.8   (projector.py only; never in the same process as cv2)
+sounddevice>=0.5                  # 0.5.6   (beat.py, optional music sync)
